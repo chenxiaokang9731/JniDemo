@@ -13,7 +13,9 @@ android {
         //JNI配置 引入cmake进行编译c++
         externalNativeBuild {
             cmake {
-                cppFlags ""
+                //fexceptions  启用对 C++ 异常处理的支持
+                //-frtti 支持 RTTI
+                cppFlags "-fexceptions", "-frtti"
                 abiFilters "armeabi", "armeabi-v7a"
             }
         }

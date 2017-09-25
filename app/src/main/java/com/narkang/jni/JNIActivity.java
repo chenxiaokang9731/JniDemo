@@ -6,6 +6,10 @@ import android.widget.TextView;
 
 import com.narkang.jni.util.JNIUtil;
 
+/**
+ *  参考的系列文章
+ *  http://blog.csdn.net/column/details/17225.html
+ */
 public class JNIActivity extends AppCompatActivity {
 
     private TextView tv_jni;

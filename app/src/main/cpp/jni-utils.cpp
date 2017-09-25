@@ -54,7 +54,7 @@ Java_com_narkang_jni_util_JNIUtil_JavaCallJNIArr(JNIEnv *env, jclass type, jintA
 }
 
 /**
- * jni回调java
+ * jni回调java非静态方法
  */
 JNIEXPORT void JNICALL
 Java_com_narkang_jni_util_JNIUtil_JNICallJavaBack(JNIEnv *env, jclass type) {
